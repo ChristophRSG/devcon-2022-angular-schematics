@@ -1,0 +1,14 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "devcon": {
+      "description": "Showcase using Schematics by creating a file",
+      "factory": "./devcon/index#devcon"
+    },
+    "template-example": {
+      "description": "Example using templates in Angular Schematics.",
+      "factory": "./template-example",
+      "schema": "./template-example/schema.json"
+    }
+  }
+}

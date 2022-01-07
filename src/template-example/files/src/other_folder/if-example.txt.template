@@ -1,0 +1,14 @@
+<%# This is a comment %>
+This is just some Text
+
+<%# Using functions in templates %>
+
+Hello, <%= capitalize(name) %>
+
+<%# Code works as well! %>
+
+<% if(magicNumber > 10) { %>
+Your Magic Number is bigger than 10!
+<% } else { %>
+Your Magic Number is lower than or equal to 10!
+<% } %>
