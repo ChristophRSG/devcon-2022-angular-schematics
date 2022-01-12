@@ -6,11 +6,11 @@
   "properties": {
     "name": {
       "type": "string",
-      "default": "noName"
+      "default": "noName",
+      "x-prompt": "What is your name?"
     },
     "magicNumber": {
-      "type": "number",
-      "_x-prompt": "what is your magic number?"
+      "type": "number"
     }
   },
   "required": [
